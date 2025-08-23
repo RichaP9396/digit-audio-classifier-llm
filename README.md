@@ -20,10 +20,19 @@ This repository contains a lightweight prototype for recognizing spoken digits (
 
 ## Setup
 
-### 1. Clone the repository
-```bash
+Setup & Installation
+
+# 1. Clone the repository
+bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+
+Create & activate virtual environment
+
+Windows (PowerShell):
+
+python -m venv venv
+.\venv\Scripts\activate
 
 2. Install dependencies
 pip install -r requirements.txt
